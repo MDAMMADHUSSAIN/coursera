@@ -5,22 +5,50 @@
 		
 		<title>coursera</title>
 		<style>
+				/*this is an element selector*/
 			h1{
 				color: blue;
 			}
-			div > p{
-				color: green;
+				/*this is class selector*/
+			.hello{
+				color: purple;
 			}
+				/*this is an id selector*/
 			#intro{
-				color: red;
+				color: black;
+			}
+			#img{
+				box-shadow: 2px 2px 3px;
+				background-color: whitesmoke;
+			}
+			.sci{
+				font-family: algerian;
+				text-align: center;
+				font-size: 20px;
+			}
+			body{
+				background-color: teal;
+				background-position: fixed;
+				background-size: 100px;
 			}
 
 		</style>
 	</head>
 	<body>
 		<h1>THIS MY FIRST WEBSITE</h1>
-	<div><p>HELLO WORLD!</p></div>
-	<p id="intro">THIS IS A DEMO WEBSTE ... I AM LEARNING WEB DEVELOPMET FROM COURSERA. </p>
+
+		<div class="hello">HELLO WORLD!</div>
+
+		<p id="intro">THIS IS A DEMO WEBSTE ... I AM LEARNING WEB DEVELOPMET FROM COURSERA. </p>
+
+		<p class="sci">SOME OF THE GREATEST SCIENTISTS FROM THE WORLD-<p>
+
+		<section id="img">
+			<a href=https://en.wikipedia.org/wiki/A._P._J._Abdul_Kalam><img src =https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/A._P._J._Abdul_Kalam.jpg/330px-A._P._J._Abdul_Kalam.jpg width = 100px; height=80px></a>
+			<a href=https://en.wikipedia.org/wiki/Albert_Einstein><img src = https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Einstein_1921_by_F_Schmutzer_-_restoration.jpg/330px-Einstein_1921_by_F_Schmutzer_-_restoration.jpg width = 100px; height=80px></a>
+			<a href=https://en.wikipedia.org/wiki/Isaac_Newton><img src =https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Portrait_of_Sir_Isaac_Newton%2C_1689.jpg/330px-Portrait_of_Sir_Isaac_Newton%2C_1689.jpg width = 100px; height=80px;></a>
+		</section>
+
 
 	</body>
 	</html>
